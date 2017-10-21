@@ -1,3 +1,8 @@
+=== NADA-WES ===
+This theme isn't getting updated anymore, so instead of making a child theme, I'm working from the master. 
+Below are old theme updates.
+
+
 === NADA ===
 Contributors: the WordPress team
 Requires at least: WordPress 4.3
