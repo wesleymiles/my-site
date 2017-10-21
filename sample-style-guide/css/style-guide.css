@@ -1,0 +1,159 @@
+/*
+Client: Marblehead on Harbor
+Theme URI: http://rockandrolldaycare.com/
+Description: Styles for the Marblehead on Harbor's style guide
+Author: Wesley Carr
+Last updated: 2017-09-12;
+*/
+
+
+/* base
+-------------------------------------------------- */
+ol, ul {  list-style-position: inside; }
+header { padding: 3em 0; margin-bottom: 4em; color: #fff }
+header .title,
+header p {
+    line-height: inherit;
+    margin-bottom: 0;
+    color: #fff; 
+    float: inherit;
+}
+html:after { background: #839FA5; }
+h5 span {
+  color: #1b6aa7;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: .8em;
+  font-family: 'Karla', sans-serif;
+  letter-spacing: 2px;
+}
+h4 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 1.3em;
+}
+.design-item {
+  padding: 1em 3em;
+  background-color: #f9fbfd;
+  margin-top: 1em;
+  border-radius: 5px
+}
+section.colors span {
+    display: inline-block;
+    width: 24%;
+    min-width: 150px;
+}
+
+
+/* branding
+-------------------------------------------------- */
+
+
+
+/* typography
+-------------------------------------------------- */
+@font-face {
+    font-family: 'effloresceantique';
+    src: url('../fonts/effloresce_antique-webfont.woff2') format('woff2'),
+         url('../fonts/effloresce_antique-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.client-styles h1, 
+.client-styles h2, 
+.client-styles h3, 
+.client-styles h4, 
+.client-styles h5 {
+	font-family: "effloresceantique", Serif;
+	text-transform: none;
+	letter-spacing: normal;
+	text-align: left;
+    font-weight: normal;
+    margin: 0 0 .25em;
+    color: #222;
+}
+
+.client-styles p {
+    font-family: Calibri, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em; 
+}
+
+
+
+/* buttons / links
+-------------------------------------------------- */
+
+.client-styles button,
+.client-styles .button a:link,
+.client-styles .button a:active {
+    font-family: "effloresceantique", Serif;
+    background: #839FA5;
+    color: #fff;
+    padding: 8px 20px;
+    font-weight: normal;
+    margin-bottom: 5px;
+    transition: background .2s;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-size: 1.5em;;
+}
+    .client-styles button:hover,
+    .client-styles .button a:hover {
+        background: #6D868B;
+    }
+
+    .client-styles button.primary,
+    .client-styles .button a.primary:link,
+    .client-styles .button a.primary:active {
+        background: #F68B1F;
+    }
+    .client-styles button.primary:hover,
+    .client-styles .button a.primary:hover {
+        background: #DE7E26;
+    }
+
+.client-styles a:link,
+.client-styles a:active {
+    font-family: Calibri, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em; 
+    color: #839FA5;
+    font-weight: bold;
+}
+    .client-styles a:hover,
+    .client-styles a:visited {
+        color: #6D868B;
+    }
+
+    .client-styles a.primary:link,
+    .client-styles a.primary:active {
+        color: #F68B1F;
+    }
+    .client-styles a.primary:hover,
+    .client-styles a.primary:visited {
+        color: #DE7E26;
+    }
+
+
+
+/* color palette
+-------------------------------------------------- */
+
+/* graphics
+-------------------------------------------------- */
+hr {
+	border: solid 1px #b7b7b8;
+}
+
+
+
+
+
+
+
+
+
