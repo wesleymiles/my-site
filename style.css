@@ -620,15 +620,13 @@ header a.logo::after {
 			min-height: 300px;
 		}
 
-			ul.work li:nth-child(even) {
-			  left: 15%;
-			}
+			ul.work li:nth-child(even) { left: 15%; }
 
-			ul.work li:nth-child(3) { left: -20%; }
-			ul.work li:nth-child(4) { left: 20%; }
+			ul.work li:nth-child(3),ul.work li:nth-child(14) { left: -20%; }
+			ul.work li:nth-child(4),ul.work li:nth-child(13) { left: 20%; }
 
-			ul.work li:nth-child(7),ul.work li:nth-child(11) { left: -25%; }
-			ul.work li:nth-child(8),ul.work li:nth-child(12) { left: 25%; }
+			ul.work li:nth-child(7),ul.work li:nth-child(11) { left: -30%; }
+			ul.work li:nth-child(8),ul.work li:nth-child(12) { left: 30%; }
 
 
 }
